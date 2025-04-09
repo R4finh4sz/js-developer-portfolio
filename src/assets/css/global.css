@@ -23,7 +23,7 @@ body{
 
 .main::before{
     content: '';
-    background-image: url(/src/assets/img/backgroud.svg);
+    background-image: url(../src/assets/img/backgroud.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100vw;
@@ -36,7 +36,7 @@ body{
 
 .main::after{
     content: '';
-    background-image: url(/src/assets/img/backgroud.svg);
+    background-image: url(../src/assets/img/backgroud.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100vw;

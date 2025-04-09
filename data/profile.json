@@ -1,78 +1,65 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
-  "skills": {
-    "hardSkills": [
+    "name": "Rafael Souza Santana",
+    "job": "Estudante de Engenharia de Software",
+    "location": "Salesópolis - SP",
+    "phone": "https://www.linkedin.com/in/rafael-souza-santana-167759222",
+    "email": "rafael.souza6657@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "react-native",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/React-native-2-logo-400x245.png"
+        },
+        {
+          "name": "nodejs",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/nodejs-logo.png"
+        },
+        {
+          "name": "typescript",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/typescript-logo.png"
+        },
+        {
+          "name": "javascript",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/javascript-logo.png"
+        },
+        {
+          "name": "html",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/html-logo.png"
+        },
+        {
+          "name": "css",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/css-logo.png"
+        }
+      ],
+      "softSkills": [
+        "Empatia",
+        "Liderança",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (intermediário)"
+    ],
+    "portfolio": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "Criando um gerador de senha para o batman",
+        "url": "https://github.com/R4finh4sz/bat-pass-generator",
+        "github": true
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-      },
-      {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
-      },
-      {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-      },
-      {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "Criando uma pokedex",
+        "url": "https://github.com/R4finh4sz/js-developer-pokedex",
+        "github": true
       }
     ],
-    "softSkills": [
-      "Empatia",
-      "Liderança",
-      "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização"
+    "professionalExperience": [
+      {
+        "name": "Estagiário Prefeitura de Salesópolis",
+        "period": "Mar 2023 - Mar 2025",
+        "description": "Durante o estágio na Prefeitura da Estância Turística de Salesópolis, tive a oportunidade de mergulhar no mundo das atividades administrativas. Minhas principais responsabilidades envolviam a execução de tarefas administrativas essenciais, como o controle de arquivos, abertura e acompanhamento de processos, digitalização e cópias de documentos importantes"
+      }
     ]
-  },
-  "languages": [
-    "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
-  ],
-  "portfolio": [
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
-    }
-  ],
-  "professionalExperience": [
-    {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
-    }
-  ]
-}
+  }

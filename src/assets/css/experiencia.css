@@ -1,0 +1,34 @@
+
+.experiencia{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.experiencia li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+
+
+.experiencia li.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.experiencia li.periodo{
+    padding: 1rem;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.125rem;
+}
+

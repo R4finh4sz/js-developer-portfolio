@@ -1,0 +1,65 @@
+{
+    "name": "Rafael Souza Santana",
+    "job": "Estudante de Engenharia de Software",
+    "location": "Salesópolis - SP",
+    "phone": "https://www.linkedin.com/in/rafael-souza-santana-167759222",
+    "email": "rafael.souza6657@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "react-native",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/React-native-2-logo-400x245.png"
+        },
+        {
+          "name": "nodejs",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/nodejs-logo.png"
+        },
+        {
+          "name": "typescript",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/typescript-logo.png"
+        },
+        {
+          "name": "javascript",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/javascript-logo.png"
+        },
+        {
+          "name": "html",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/html-logo.png"
+        },
+        {
+          "name": "css",
+          "logo": "https://www.okoone.com/wp-content/uploads/2024/06/css-logo.png"
+        }
+      ],
+      "softSkills": [
+        "Empatia",
+        "Liderança",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (intermediário)"
+    ],
+    "portfolio": [
+      {
+        "name": "Criando um gerador de senha para o batman",
+        "url": "https://github.com/R4finh4sz/bat-pass-generator",
+        "github": true
+      },
+      {
+        "name": "Criando uma pokedex",
+        "url": "https://github.com/R4finh4sz/js-developer-pokedex",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Estagiário Prefeitura de Salesópolis",
+        "period": "Mar 2023 - Mar 2025",
+        "description": "Durante o estágio na Prefeitura da Estância Turística de Salesópolis, tive a oportunidade de mergulhar no mundo das atividades administrativas. Minhas principais responsabilidades envolviam a execução de tarefas administrativas essenciais, como o controle de arquivos, abertura e acompanhamento de processos, digitalização e cópias de documentos importantes"
+      }
+    ]
+  }

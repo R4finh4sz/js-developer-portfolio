@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Rafael Souza Santana</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/assets/fonts/NeueMachina-Regular.otf">
+
+    <link rel="stylesheet" href="src/assets/css/global.css" />
+    <link rel="stylesheet" href="src/assets/css/header.css" />
+    <link rel="stylesheet" href="src/assets/css/acordeon.css" />
+    <link rel="stylesheet" href="src/assets/css/languages.css" />
+    <link rel="stylesheet" href="src/assets/css/portifolio.css" />
+    <link rel="stylesheet" href="src/assets/css/experiencia.css" />
+    <link rel="stylesheet" href="src/assets/css/skills.css" />
+
+</head>
+
+<body class="body">
+    <div class="main">
+        <header class="header">
+
+            <img src="./src/assets/img/PerfilCompacto.jpeg" alt="Imagem de Rafael Souza Santana" class="photo">
+
+            <h1 class="title">Olá
+                <br> eu sou Rafael Souza Santana
+            </h1>
+            <div class="information">
+                <p class="p">Desenvolvedor Mobile</p>
+                <p class="local">Salesópolis - SP.</p>
+                <p class="phone">
+                    <a href="https://www.linkedin.com/in/rafael-souza-santana-167759222" target="_blank" >https://www.linkedin.com/in/rafael-souza-santana-167759222/</a></p>
+                <p class="email">
+                    <a href="mailto:rafael.souza6657@gmail.com">rafael.souza6657@gmail.com</a></p>
+            </div>
+
+        </header>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                Idiomas
+            </button>
+
+            <div class="content">
+                <div>
+                    <ul class="languages">
+                        <li>Português</li>
+                        <li>Inglês</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <section class="acordeon">
+        <button class="trigger" type="button">
+            Portifólio
+        </button>
+
+        <div class="content">
+            <div>
+                <ul class="portifolio">
+                    <li>
+                        <span class="title github">Criando um Gerador de Senhas para o Batman</span>
+                        <a href="https://github.com/R4finh4sz/bat-pass-generator" target="_blank">Clique aqui</a>
+                    </li>
+
+                    <li>
+                        <span class="title github">Criando uma pokedex</span>
+                        <a href="https://github.com/R4finh4sz/js-developer-pokedex" target="_blank">Clique aqui</a>
+                    </li>
+
+                    <li>
+                        <span class="title github">Projeto de Iniciação Cientifíca</span>
+                        <a href="https://github.com/R4finh4sz/SIATEA" target="_blank">Clique aqui</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                Experiência Profissional
+            </button>
+    
+            <div class="content">
+                    <ul class="experiencia">
+                        <li>
+                            <span class="title">Estágio Prefeitura de Salesópolis</span>
+                            <span class="periodo">Mar 2023 - Mar 2025</span>
+                            <p>Durante o estágio na Prefeitura da Estância Turística de Salesópolis, tive a
+                                oportunidade de mergulhar no mundo das atividades administrativas. Minhas
+                                principais responsabilidades envolviam a execução de tarefas administrativas
+                                essenciais, como o controle de arquivos, abertura e acompanhamento de
+                                processos, digitalização e cópias de documentos importantes.</p>
+                        </li>
+                    </ul>
+            </div>
+
+    </section>
+
+
+    <section class="acordeon">
+        <button class="trigger" type="button">
+            Skills
+        </button>
+
+        <div class="content">
+            <div class="skills">
+            <section class="hard">
+                <h3>Hard Skills:</h3>
+                <ul>
+                    <li>
+                        <img src="./src/assets/img/languages/java.svg" alt="Java" title="Java">
+                    </li>
+
+                    <li>
+                        <img src="./src/assets/img/languages/node.svg" alt="node" title="node">
+                    </li>
+
+                    <li>
+                        <img src="./src/assets/img/languages/reactNative.svg" alt="reactNative" title="reactNative">
+                    </li>
+                </ul>
+            </section>
+
+            <section class="soft">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Trabalho em equipe</li>
+                    <li>Comunicação</li>
+                    <li>Organização</li>
+                    <li>Proatividade</li>
+                    <li>Empatia</li>
+                    <li>Resiliência</li>
+            </section>
+
+        </div>
+    </div>
+
+</section>
+
+    <script src="./src/assets/js/acordeon.js"></script>
+    <script src="./src/assets/js/api.js"></script>
+    <script src="./src/assets/js/main.js"></script>
+</body>
+
+</html>
